@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    font-family: Verdana, sans-serif;
+}
+
+#menu {
+    flex: 1;
+    background-color: #ee2f24;
+    max-width: 20%;
+    padding-top: 30px;
+    border-right: 2px dotted white;
+}
+
+#logo {
+    max-width: 100%;
+}
+
+#menu-list {
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+}
+
+#content {
+    flex: 1;
+    background-color: #ffb007;
+    max-width: 80%;
+}
+
+.option {
+    font-size: 32px;
+	padding: 10px;
+}
+
+.option:hover {
+	background-color: white;
+    color: #ee2f24;
+	cursor: pointer;
+}
